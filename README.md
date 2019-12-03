@@ -1,44 +1,66 @@
 # PacifistaBot: Kit Humanoide de iniciación
 ![PacifistaBot](./images/pacifista_img.jpg)
 
-<p style="text-align:justify">Este Kit está pensado para todo aquel que quiera iniciarse en la competición de humanoides.</p>
+Este Kit está pensado para todo aquel que quiera iniciarse en la competición de humanoides. Está diseñado con piezas estandarizadas, baratas, fácil de conseguir y pensado para ser de fácil montaje y programación. Está creado en su totalidad a base de impresión 3D, se programa desde un Arduino Nano y usa una placa controladora fácil de soldar.
 
-<p style="text-align:justify">Está pensado para ser de fácil montaje y programación, ya que está creado en su totalidad a base de impresión 3D y se programa desde un Arduino Nano.</p>
+Hay que destacar que el robot ha sido diseñado por OPRobots y han liberado las fuentes para que cualquiera pueda replicarlo, modificarlo o seguir desarrollándolo. Aunque su diseño inicial esté inspirado en los robots Pacifistas de la serie One Piece, el diseño es totalmente personalizable ya que tanto las manos y la cabeza, como los detalles decorativos de su pecho y piernas son totalmente modificables e intercambiables para conseguir un robot único.
 
-<p style="text-align:justify">Además las soldaduras necesarias para el montaje de su placa controladora son muy simples.</p>
+Mediante este Kit se puede profundizar diferentes niveles de competencias técnicas, de las siguientes áreas STEM:
 
-<p style="text-align:justify">Hay que destacar también que, aunque su diseño inicial esté inspirado en los robots Pacifistas de la serie One Piece, el diseño es totalmente personalizable ya que tanto las manos y la cabeza, como los detalles decorativos de su pecho y piernas son totalmente modificables e intercambiables para conseguir un robot único.</p>
+- Electrónica
+- Mecatrónica
+- Programación
+- Dibujo
+- Impresión 3D
 
-<hr>
+El coste del material de montaje es inferior a 100 euros y para facilitar poder empezar a montar se ha documentado un listado de [Material y Equipos](../montaje/MATERIAL-EQUIPOS.md) necesarios. Clasificándolos por piezas 3D, componentes mecánicos, componentes electrónicos y equipos de trajo y herramientas.
 
-## Placa Controladora y Batería
-![PCB de PacifistaBot](./images/pacifista_pcb_img.jpg)
+Para guiar en el proceso de creación de robot, se ha documentado el proceso de [Montaje y Calibración](../montaje/MONTAJE-CALIBRACION.md). En él se encuentra el proceso de montaje-ajustes mecánicos, montaje electrónico y calibración del robot.
 
-<p style="text-align:justify">Al constar de solo 12 Servos o ejes de libertad, es posible controlarlo fácilmente con tan solo un Arduino Nano, sin necesidad de usar otras placas expansoras y tan solo es necesario alimentar los Servos con una tensión suficiente mediante nuestra placa diseñada a medida, ya que el Arduino por si solo no podría proporcionar la corriente suficiente para mover todos los Servos por si solo.</p>
+Las especificaciones principales son:
 
-<p style="text-align:justify">La batería con la que funciona es una LiFe de 1100 mAh y 2S que le proporcionará en torno a unos 20 minutos de autonomía: tiempo suficiente para toda una competición de Humanoides entera. Aunque, solo con quitar los tornillos de su tapa trasera, es muy simple y rápido reemplazar la batería LiFe por otra cargada en caso de emergencia.</p>
+DIMENSIONES
 
-<hr>
+------
 
-## Elección de Servos
-![Servos de PacifistaBot](./images/pacifista_servos_img.jpg)
-<p style="text-align:justify">Además de por bastante plastico, PacifistaBot está compuesto de 12 servos MG996R con pletinas de metal. Estos son unos servo de gran fuerza, unos 15KG, con un precio bastante asequible. Hemos seleccionado estos servos por su relación precio/fuerza y porque, al ser tamaño estandar, el diseño sería compatible con gran variedad de servos con prestaciones mucho más avanzadas para aquellos que quieran alcanzar un nivel más alto con este Kit. De esta forma, en caso de querer montar otro tipo de servos, el diseño sería completamente compatible con ellos.</p>
+- Producto contraido: 320 x 220 x 160 mm
+- Producto extendido: 450 x 600 x110 mm
 
-<hr>
+PESO
 
-## Comunicación
-![Comunicación de PacifistaBot](./images/pacifista_comunicacion_img.jpg)
-<p style="text-align:justify">El control remoto con el robot se hará mediante Bluetooth usando un módulo HC-05 o HC-06 para Arduino y desde cualquier teléfono conectandose al módulo Bluetooth, sin necesidad de ningún tipo de mando. Actualmente existe una gran variedad de aplicaciones, tanto para Android como para iOS que permiten conectarse por Bluetooth a uno de estos módulos y enviarles información y, dependiendo del carácter que se le envíe al Arduino, el robot realizará una acción u otra.</p>
+------
 
-<p style="text-align:justify">Pronto estará disponible también una aplicación personalizada y orientada específicamente para PacifistaBot (en cierto modo similar a <a href="http://github.com/robotaleh/PIDfromBT" target="_blank">PIDfromBT</a>
- desde la que se podrán configurar los comandos y los botones para hacer más intuitivo el control del robot.</p>
+- Producto: 1000 g ~
 
-<hr>
+MATERIALES
 
-## Tutorial de Montaje
-[![Tutorial de Montaje](./images/pacifista_tutorial_preview_img.jpg)](https://drive.google.com/file/d/10EezfLya-EukxTjCjV9P1Jr0ghWxqBgg/view)
-<p style="text-align:justify">Demostración del montaje de PacifistaBot paso a paso, buscando la mejor y más facil forma de montar el Kit. En cada paso se muestra el orden de montaje y los materiales necesarios. Además, el orden global de montaje está pensado para comenzar montando las partes más sencillas del robot para familiarizarse con los mecanismos que se repiten a lo largo del montaje partiendo desde una base simple.</p>
+------
 
-<hr>
+- Piezas impresas en PLA o ABS
+- Tornillos de acero inox.
 
-##### PRONTO MÁS INFORMACIÓN...
+COMPONENTES ELECTRÓNICOS
+
+------
+
+- 12 Servomotores MG 996R
+- Bateria LiFe 6,6V 1100	mAh
+- Controladora Arduino Nano
+- Módulo Bluetooth hc-05
+
+COMUNICACIÓN
+
+------
+
+- Cable mini-Usb
+- Bluetooth
+
+SOFTWARE
+
+------
+
+- Programación: [Arduino IDE](https://www.arduino.cc/)
+- Diseño electrónico: [Kicad](https://www.kicad-pcb.org/)
+- Diseño mecánico: [Skeetup](https://www.sketchup.com/)
+- Comunicacción: [Putty](https://www.putty.org) / [Arduino IDE](https://www.arduino.cc/) / [ScriptCommunicator](https://github.com/szieke/ScriptCommunicator_serial-terminal) /...
+- APP android: [Bluetooth Electronics](https://www.keuwl.com/apps/bluetoothelectronics/) / [BlueTerm](https://play.google.com/store/apps/details?id=es.pymasde.blueterm&hl=en_US) / ...
