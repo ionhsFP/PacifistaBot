@@ -13,9 +13,9 @@ Mediante este Kit se puede profundizar diferentes niveles de competencias técni
 - Dibujo
 - Impresión 3D
 
-El coste del material de montaje es inferior a 100 euros y para facilitar poder empezar a montar se ha documentado un listado de [Material y Equipos](../montaje/MATERIAL-EQUIPOS.md) necesarios. Clasificándolos por piezas 3D, componentes mecánicos, componentes electrónicos y equipos de trajo y herramientas.
+El coste del material de montaje es inferior a 100 euros y para facilitar poder empezar a montar se ha documentado un listado de [Material y Equipos](./montaje/MATERIAL-EQUIPOS.md) necesarios. Clasificándolos por piezas 3D, componentes mecánicos, componentes electrónicos y equipos de trajo y herramientas.
 
-Para guiar en el proceso de creación de robot, se ha documentado el proceso de [Montaje y Calibración](../montaje/MONTAJE-CALIBRACION.md). En él se encuentra el proceso de montaje-ajustes mecánicos, montaje electrónico y calibración del robot.
+Para guiar en el proceso de creación de robot, se ha documentado el proceso de [Montaje y Calibración](./montaje/MONTAJE-CALIBRACION.md). En él se encuentra el proceso de montaje-ajustes mecánicos, montaje electrónico y calibración del robot.
 
 Las especificaciones principales son:
 
