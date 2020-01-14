@@ -13,9 +13,16 @@ Mediante este Kit se puede profundizar diferentes niveles de competencias técni
 - Dibujo
 - Impresión 3D
 
-El coste del material de montaje es inferior a 100 euros y para facilitar poder empezar a montar se ha documentado un listado de [Material y Equipos](./montaje/MATERIAL-EQUIPOS.md) necesarios. Clasificándolos por piezas 3D, componentes mecánicos, componentes electrónicos y equipos de trajo y herramientas.
+El robot pacifistabot originalmente se ha diseñado para controlado por bluetooth. Partiendo de la idea original se ha modificado creando una nueva versión en la que se puede elegir controlarlo mediante bluetooth o mediante wifi (los 2 a la vez no se puede). En la siguiente tabla se puede ver la documentación de cada versión de robot.
 
-Para guiar en el proceso de creación de robot, se ha documentado el proceso de [Montaje y Calibración](./montaje/MONTAJE-CALIBRACION.md). En él se encuentra el proceso de montaje-ajustes mecánicos, montaje electrónico y calibración del robot.
+| Pacifistabot                                              | Pacifistabot-ESP                                           |
+| --------------------------------------------------------- | ---------------------------------------------------------- |
+| [Material y Equipos](./montaje/MATERIAL-EQUIPOS.md)       | [Material y Equipos](./montaje/MATERIAL-EQUIPOS-ESPyBT.md) |
+| [Montaje y Calibración](./montaje/MONTAJE-CALIBRACION.md) | Montaje y Calibración                                      |
+
+El coste del material de montaje es inferior a 100 euros y para facilitar poder empezar a montar se ha documentado un listado de Material y Equipos necesarios. Clasificándolos por piezas 3D, componentes mecánicos, componentes electrónicos y equipos de trajo y herramientas.
+
+Para guiar en el proceso de creación de robot, se ha documentado el proceso de Montaje y Calibración. En él se encuentra el proceso de montaje-ajustes mecánicos, montaje electrónico y calibración del robot.
 
 Las especificaciones principales son:
 
@@ -47,6 +54,7 @@ COMPONENTES ELECTRÓNICOS
 - Bateria LiFe 6,6V 1100	mAh
 - Controladora Arduino Nano
 - Módulo Bluetooth hc-05
+- Módulo Wifi ESP-01 (solo en Versión Pacifistabot-ESP)
 
 COMUNICACIÓN
 
@@ -54,6 +62,8 @@ COMUNICACIÓN
 
 - Cable mini-Usb
 - Bluetooth
+- Wifi (solo en Versión Pacifistabot-ESP)
+- Programación mediante OTA (Over The Air)(solo en Versión Pacifistabot-ESP)
 
 SOFTWARE
 

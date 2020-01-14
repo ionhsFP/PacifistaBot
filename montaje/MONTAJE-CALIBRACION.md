@@ -57,9 +57,9 @@ Es importante tomarse el tiempo necesario para poder realizar el ajuste y la cal
 
    Mediante el siguiente diagrama de bloques se puede ver los bloques tecnológicos y las relaciones que hay entre ellos en el robot humanoide.
 
-   ![](../pcb_files/Diagrama_Bloques_Pacifista_BT.png)
+   ![](../pcb_files/Pacifista_BT/Diagrama_Bloques_Pacifista_BT.png)
 
-   Los archivos originales del [diagrama de bloques](../pcb_files/Diagrama_Bloques_Pacifista_BT.svg) han sido creados en Inkscape en el formato SVG.
+   Los archivos originales del [diagrama de bloques](../pcb_files/Pacifista_BT/Diagrama_Bloques_Pacifista_BT.svg) han sido creados en Inkscape en el formato SVG.
 
 5. ##### Conexión de los Servomotores
 

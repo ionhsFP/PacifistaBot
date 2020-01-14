@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ESP8266)(type Legacy)(uri C:/Users/ionhs/Documents/Kicad/lib_sch/ESP8266.lib)(options "")(descr ""))
+  (lib (name PCB_pacifista-rescue)(type Legacy)(uri C:/Users/ionhs/Documents/Kicad/lib_sch/PCB_pacifista-rescue.lib)(options "")(descr ""))
+  (lib (name SCH_libreria)(type Legacy)(uri C:/Users/ionhs/Documents/Kicad/lib_sch/SCH_libreria.lib)(options "")(descr ""))
+  (lib (name Pacifistabot-ESP-01s-rescue)(type Legacy)(uri ${KIPRJMOD}/Pacifistabot-ESP-01s-rescue.lib)(options "")(descr ""))
+)
