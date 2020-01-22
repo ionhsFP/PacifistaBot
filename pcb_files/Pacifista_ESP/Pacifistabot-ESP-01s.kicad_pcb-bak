@@ -993,6 +993,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
+    (model "C:/Users/ionhs/Downloads/arduino-nano--1.snapshot.4/arduino nano.STEP"
+      (offset (xyz -17.5 -7.5 9.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Pacifista-Bluetooth:SolderWirePad_single_1-5mmDrill (layer F.Cu) (tedit 5BD5982E) (tstamp 5DE007A6)
