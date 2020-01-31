@@ -32,7 +32,7 @@ Pie izquierdo (Exterior/Apoyo/Interior): 88/71/3
 
 Servo miservo;  // create servo object to control a servo
 
-const int PinControl=5; // pin al que está conectado el servomotor
+const int PinControl=A1; // pin al que está conectado el servomotor
 int pos_servo = 90;  // posición del servo entre 0 y 180, inicializado a 90
 
 int valor_serie;    // valor leido por serie

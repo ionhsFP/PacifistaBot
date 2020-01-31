@@ -7,7 +7,7 @@ El montaje y calibración del robot humanoide es relativamente sencillo y adecua
 
 El montaje del robot está compuesto de dos partes, una mecánica y otra electrónica. Este trabajo se puede empezar por cualquiera de las dos partes para unirlas al finalizarlas. En el video que han realizado los de [OPRobots](https://twitter.com/OPRobots) al principio se puede ver el montaje mecánico y al final el montaje electrónico.
 
-![[<https://drive.google.com/file/d/10EezfLya-EukxTjCjV9P1Jr0ghWxqBgg/view>]()](C:\Users\ionhs\Documents\Robotica\PacifistaBot-Sinfork\images\pacifista_tutorial_preview_img.jpg)
+![[<https://drive.google.com/file/d/10EezfLya-EukxTjCjV9P1Jr0ghWxqBgg/view>]()](../images/pacifista_tutorial_preview_img.jpg)
 
 También está documentado mediante twitter por [ionhs_FP](https://twitter.com/ionhs_FP) el proceso de montaje del robot humanoide:
 
@@ -32,7 +32,7 @@ Es importante tomarse el tiempo necesario para poder realizar el ajuste y la cal
 
    |                       Brazo recogido                       |                       Brazo extendido                       |
    | :--------------------------------------------------------: | :---------------------------------------------------------: |
-   | ![](./montaje/Programacion_Calibracion/Brazo_encogido.jpg) | ![](./montaje/Programacion_Calibracion/Brazo_extendido.jpg) |
+   | ![](./Montaje/Programacion_Calibracion/Brazo_encogido.jpg) | ![](./Montaje/Programacion_Calibracion/Brazo_extendido.jpg) |
 
    En el caso que algún servomotor no tuviera todo el recorrido mecánico, habría que desmontar la pieza impresa, mover el servomotor y volver a montar la pieza, hasta que tuviera todo el recorrido mecánico. En el caso de no realizarse este tipo de comprobaciones, es muy posible que al poco de empezar a usarse alguna pieza se rompa. En la imagen se puede ver la rotura de la pieza de plástico del codo del robot.
 
@@ -47,11 +47,11 @@ Es importante tomarse el tiempo necesario para poder realizar el ajuste y la cal
 
     De esta manera se irá viendo  la posición del servomotor por serie y desde el PC o móvil se podrá desplazar grado a grado la posición. Para conocer el ángulo límite del robot se ha de ir sustituyendo en el pin A1 uno a uno todos los servomotores del robot.
 
-   |                                                              |                                                              |
-   | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | ![](./montaje/Programacion_Calibracion/Servo1_bluetooth.jpg) | ![](./montaje/Programacion_Calibracion/Movil_app_1servo.png) |
+   |           Placa alimentada con conexión al pin A1            |               Captura de la pantalla del movil               |
+   | :----------------------------------------------------------: | :----------------------------------------------------------: |
+   | ![](./Montaje/Programacion_Calibracion/Servo1_bluetooth.jpg) | ![](./Montaje/Programacion_Calibracion/Movil_app_1servo.png) |
 
-   En las imágenes de arriba se muestra el servomotor del hombro derecho del robot conectado a la placa en el pin A1. También la imagen del la aplicación del móvil ([Descargar panel](./..source_code/BluetoothElectronics/Bluetooth_Electronics_Panels_0003.kwl) de BluetoothElectronics) donde se ve que el servomotor está a 70º y mediante los 2 botones se puede desplazar el servomotor hacia arriba o abajo. Esta información (los límites de cada servomotor) hay que ir consiguiéndola de cada uno de los servomotores del robot.
+   En las imágenes de arriba se muestra el servomotor del hombro derecho del robot conectado a la placa en el pin A1. También la imagen del la aplicación del móvil ([Descargar panel](../source_code/BluetoothElectronics/Bluetooth_Electronics_Panels_0003.kwl) de BluetoothElectronics) donde se ve que el servomotor está a 70º y mediante los 2 botones se puede desplazar el servomotor hacia arriba o abajo. Esta información (los límites de cada servomotor) hay que ir consiguiéndola de cada uno de los servomotores del robot.
 
 4. ##### Tecnología y Diagrama de Bloques
 
