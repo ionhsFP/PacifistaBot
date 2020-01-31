@@ -7,7 +7,7 @@ El montaje y calibración del robot humanoide es relativamente sencillo y adecua
 
 El montaje del robot está compuesto de dos partes, una mecánica y otra electrónica. Este trabajo se puede empezar por cualquiera de las dos partes para unirlas al finalizarlas. En el video que han realizado los de [OPRobots](https://twitter.com/OPRobots) al principio se puede ver el montaje mecánico y al final el montaje electrónico.
 
-![<https://drive.google.com/file/d/10EezfLya-EukxTjCjV9P1Jr0ghWxqBgg>](../images/pacifista_tutorial_preview_img.jpg)
+[![Botón de video de montaje](../images/pacifista_tutorial_preview_img.jpg)](https://drive.google.com/file/d/10EezfLya-EukxTjCjV9P1Jr0ghWxqBgg)
 
 También está documentado mediante twitter por [ionhs_FP](https://twitter.com/ionhs_FP) el proceso de montaje del robot humanoide:
 
