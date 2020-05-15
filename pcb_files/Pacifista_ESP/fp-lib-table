@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Pacifista-Bluetooth)(type KiCad)(uri C:/Users/ionhs/Desktop/pcb_files/Pacifista-Bluetooth.pretty)(options "")(descr ""))
   (lib (name Desktop)(type KiCad)(uri C:/Users/ionhs/Desktop)(options "")(descr ""))
+  (lib (name Pacifista_ESP)(type KiCad)(uri ${KIPRJMOD}/Pacifista_ESP.pretty)(options "")(descr ""))
 )

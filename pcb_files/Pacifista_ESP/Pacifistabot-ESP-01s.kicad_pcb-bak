@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
@@ -16,11 +16,11 @@
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user)
-    (35 F.Paste user)
+    (35 F.Paste user hide)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user)
+    (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
@@ -46,8 +46,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.127)
-    (segment_width 0.2)
-    (edge_width 0.1)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -57,6 +55,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.1)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -617,7 +617,7 @@
   )
 
   (module Pacifista-Bluetooth:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5DE0086D)
-    (at 73.025 98.425)
+    (at 73.66 98.425)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5BAFC065)
@@ -1669,6 +1669,11 @@
       (offset (xyz -0.7 -1 0))
       (scale (xyz 0.37 0.37 0.37))
       (rotate (xyz 90 0 0))
+    )
+    (model "C:/Users/ionhs/Downloads/mini-360-mp2307-1.snapshot.5/MIni - 360.step"
+      (offset (xyz 7.5 4 -12.85))
+      (scale (xyz 0.875 0.925 0.8))
+      (rotate (xyz 0 0 90))
     )
   )
 

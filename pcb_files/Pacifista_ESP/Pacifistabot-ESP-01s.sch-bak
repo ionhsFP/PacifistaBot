@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Pacifistabot-ESP-01s-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,12 +51,12 @@ NoConn ~ 6250 3650
 $Comp
 L Pacifistabot-ESP-01s-rescue:GND-PCB_pacifista-rescue #PWR0101
 U 1 1 5BAFAB4B
-P 8300 1150
-F 0 "#PWR0101" H 8300 900 50  0001 C CNN
-F 1 "GND" H 8300 1000 50  0000 C CNN
-F 2 "" H 8300 1150 50  0001 C CNN
-F 3 "" H 8300 1150 50  0001 C CNN
-	1    8300 1150
+P 8350 950
+F 0 "#PWR0101" H 8350 700 50  0001 C CNN
+F 1 "GND" H 8350 800 50  0000 C CNN
+F 2 "" H 8350 950 50  0001 C CNN
+F 3 "" H 8350 950 50  0001 C CNN
+	1    8350 950 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -236,7 +236,6 @@ F 3 "" H 6550 3950 50  0001 C CNN
 $EndComp
 NoConn ~ 6350 2650
 NoConn ~ 6350 4350
-NoConn ~ 8300 1450
 $Comp
 L Pacifistabot-ESP-01s-rescue:CP-PCB_pacifista-rescue C1
 U 1 1 5BD4EA88
@@ -435,14 +434,14 @@ Wire Wire Line
 	8200 2400 8200 2800
 Wire Wire Line
 	8200 3300 8200 3900
-Text GLabel 8100 1250 0    50   Input ~ 0
+Text GLabel 8150 1050 0    50   Input ~ 0
 TX
 Wire Wire Line
-	8100 1250 8300 1250
-Text GLabel 8100 1350 0    50   Input ~ 0
+	8150 1050 8350 1050
+Text GLabel 8150 1150 0    50   Input ~ 0
 RX
 Wire Wire Line
-	8100 1350 8300 1350
+	8150 1150 8350 1150
 Text GLabel 6950 2350 2    50   Input ~ 0
 TX
 Text GLabel 6400 2450 2    50   Input ~ 0
@@ -543,7 +542,7 @@ F 3 "~" H 6550 3150 50  0001 C CNN
 	1    6550 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 8050 1050 0    50   Input ~ 0
+Text GLabel 8100 850  0    50   Input ~ 0
 5V
 $Comp
 L Pacifistabot-ESP-01s-rescue:ESP-01v090-ESP8266 U3
@@ -654,89 +653,87 @@ Wire Wire Line
 Text Label 8100 1900 2    60   ~ 0
 Alimentación
 $Comp
-L Device:R 10k2
+L Device:R R7
 U 1 1 5DEBB805
-P 6750 1200
-F 0 "10k2" H 6820 1246 50  0000 L CNN
-F 1 "R" H 6820 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6680 1200 50  0001 C CNN
-F 3 "~" H 6750 1200 50  0001 C CNN
-	1    6750 1200
+P 7050 1500
+F 0 "R7" H 7120 1546 50  0000 L CNN
+F 1 "10K" H 7120 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6980 1500 50  0001 C CNN
+F 3 "~" H 7050 1500 50  0001 C CNN
+	1    7050 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R 10k1
+L Device:R R6
 U 1 1 5DEBB80B
-P 6400 1200
-F 0 "10k1" H 6470 1246 50  0000 L CNN
-F 1 "R" H 6470 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6330 1200 50  0001 C CNN
-F 3 "~" H 6400 1200 50  0001 C CNN
-	1    6400 1200
+P 6700 1500
+F 0 "R6" H 6770 1546 50  0000 L CNN
+F 1 "10K" H 6770 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6630 1500 50  0001 C CNN
+F 3 "~" H 6700 1500 50  0001 C CNN
+	1    6700 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 1050 6750 950 
+	7050 1350 7050 1250
 Wire Wire Line
-	6750 950  7150 950 
+	7050 1250 7450 1250
 $Comp
-L pspice:CAP 330nF1
+L pspice:CAP C3
 U 1 1 5DEBB814
-P 7400 950
-F 0 "330nF1" V 7085 950 50  0000 C CNN
-F 1 "CAP" V 7176 950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7400 950 50  0001 C CNN
-F 3 "~" H 7400 950 50  0001 C CNN
-	1    7400 950 
+P 7700 1250
+F 0 "C3" V 7385 1250 50  0000 C CNN
+F 1 "330nF1" V 7476 1250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7700 1250 50  0001 C CNN
+F 3 "~" H 7700 1250 50  0001 C CNN
+	1    7700 1250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6400 1050 6400 950 
+	6700 1350 6700 1250
 Wire Wire Line
-	6400 950  6750 950 
-Connection ~ 6750 950 
-Text GLabel 6750 1500 3    50   Input ~ 0
+	6700 1250 7050 1250
+Connection ~ 7050 1250
+Text GLabel 7050 1800 3    50   Input ~ 0
 5V
 $Comp
 L power:GND #PWR0112
 U 1 1 5DEBB81E
-P 6400 1500
-F 0 "#PWR0112" H 6400 1250 50  0001 C CNN
-F 1 "GND" H 6405 1327 50  0000 C CNN
-F 2 "" H 6400 1500 50  0001 C CNN
-F 3 "" H 6400 1500 50  0001 C CNN
-	1    6400 1500
+P 6700 1800
+F 0 "#PWR0112" H 6700 1550 50  0001 C CNN
+F 1 "GND" H 6705 1627 50  0000 C CNN
+F 2 "" H 6700 1800 50  0001 C CNN
+F 3 "" H 6700 1800 50  0001 C CNN
+	1    6700 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 1500 6400 1350
+	6700 1800 6700 1650
 Wire Wire Line
-	6750 1350 6750 1500
+	7050 1650 7050 1800
 Wire Wire Line
-	8050 1050 8300 1050
-Connection ~ 6400 950 
-Text GLabel 5950 950  0    50   Input ~ 0
+	8100 850  8350 850 
+Connection ~ 6700 1250
+Text GLabel 6250 1250 0    50   Input ~ 0
 RST
 Text GLabel 4800 3550 0    50   Input ~ 0
 RST
 Wire Wire Line
 	4800 3550 4900 3550
 Wire Wire Line
-	5950 950  6400 950 
+	6250 1250 6700 1250
+NoConn ~ 8350 750 
 $Comp
-L Connector_Generic:Conn_01x07 J9
-U 1 1 5DE7E71C
-P 8500 1150
-F 0 "J9" H 8580 1192 50  0000 L CNN
-F 1 "Conn_01x07" H 8580 1101 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 8580 1055 50  0001 L CNN
-F 3 "~" H 8500 1150 50  0001 C CNN
-	1    8500 1150
+L Connector_Generic:Conn_01x06 J9
+U 1 1 5DE9D3E5
+P 8550 950
+F 0 "J9" H 8630 942 50  0000 L CNN
+F 1 "Conn_01x06" H 8630 851 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8550 950 50  0001 C CNN
+F 3 "~" H 8550 950 50  0001 C CNN
+	1    8550 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 950  7650 850 
-Wire Wire Line
-	7650 850  8300 850 
-NoConn ~ 8300 950 
+	7950 1250 8350 1250
 $EndSCHEMATC

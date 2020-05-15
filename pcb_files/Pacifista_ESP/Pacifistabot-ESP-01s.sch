@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Pacifistabot-ESP-01s-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -449,7 +449,7 @@ RX
 Wire Wire Line
 	6250 2450 6400 2450
 $Comp
-L Device:R R2
+L Pacifistabot-ESP-01s-rescue:R-Device R2
 U 1 1 5DC3A91A
 P 6700 2350
 F 0 "R2" V 6800 2350 50  0000 C CNN
@@ -460,7 +460,7 @@ F 3 "~" H 6700 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R3
+L Pacifistabot-ESP-01s-rescue:R-Device R3
 U 1 1 5DC40FD8
 P 6900 2550
 F 0 "R3" V 7000 2550 50  0000 C CNN
@@ -532,7 +532,7 @@ Connection ~ 2350 4650
 Wire Wire Line
 	2350 4650 2700 4650
 $Comp
-L Connector_Generic:Conn_01x09 J3
+L Pacifistabot-ESP-01s-rescue:Conn_01x09-Connector_Generic J3
 U 1 1 5DE0D3A4
 P 6550 3150
 F 0 "J3" H 6500 3650 50  0000 L CNN
@@ -567,7 +567,7 @@ F 3 "" H 5400 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0109
+L Pacifistabot-ESP-01s-rescue:+3.3V-power #PWR0109
 U 1 1 5DAF2344
 P 2750 1300
 F 0 "#PWR0109" H 2750 1150 50  0001 C CNN
@@ -578,7 +578,7 @@ F 3 "" H 2750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Pacifistabot-ESP-01s-rescue:R-Device R1
 U 1 1 5DB02EEC
 P 3100 1400
 F 0 "R1" V 3200 1400 50  0000 C CNN
@@ -606,7 +606,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1600 5450 1600
 $Comp
-L Regulator_Linear:AMS1117 U2
+L Pacifistabot-ESP-01s-rescue:AMS1117-Regulator_Linear U2
 U 1 1 5DB788B1
 P 2150 1400
 F 0 "U2" H 2150 1642 50  0000 C CNN
@@ -653,7 +653,7 @@ Wire Wire Line
 Text Label 8100 1900 2    60   ~ 0
 Alimentación
 $Comp
-L Device:R R7
+L Pacifistabot-ESP-01s-rescue:R-Device R7
 U 1 1 5DEBB805
 P 7050 1500
 F 0 "R7" H 7120 1546 50  0000 L CNN
@@ -664,7 +664,7 @@ F 3 "~" H 7050 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Pacifistabot-ESP-01s-rescue:R-Device R6
 U 1 1 5DEBB80B
 P 6700 1500
 F 0 "R6" H 6770 1546 50  0000 L CNN
@@ -679,7 +679,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 1250 7450 1250
 $Comp
-L pspice:CAP C3
+L Pacifistabot-ESP-01s-rescue:CAP-pspice C3
 U 1 1 5DEBB814
 P 7700 1250
 F 0 "C3" V 7385 1250 50  0000 C CNN
@@ -697,7 +697,7 @@ Connection ~ 7050 1250
 Text GLabel 7050 1800 3    50   Input ~ 0
 5V
 $Comp
-L power:GND #PWR0112
+L Pacifistabot-ESP-01s-rescue:GND-power #PWR0112
 U 1 1 5DEBB81E
 P 6700 1800
 F 0 "#PWR0112" H 6700 1550 50  0001 C CNN
@@ -724,7 +724,7 @@ Wire Wire Line
 	6250 1250 6700 1250
 NoConn ~ 8350 750 
 $Comp
-L Connector_Generic:Conn_01x06 J9
+L Pacifistabot-ESP-01s-rescue:Conn_01x06-Connector_Generic J9
 U 1 1 5DE9D3E5
 P 8550 950
 F 0 "J9" H 8630 942 50  0000 L CNN
