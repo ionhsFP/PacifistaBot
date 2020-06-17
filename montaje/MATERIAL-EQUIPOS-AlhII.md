@@ -1,0 +1,123 @@
+# PacifistaBot AlhII: Material y Equipos
+![PacifistaBot](./../images/pacifista_img.jpg)
+
+Dado que es un Kit de iniciación, uno de los puntos más importantes es que el material y equipos necesario para poderse montar no es muy complejo y es fácil de encontrar o de tener disponible. Se va a ir identificando los componentes para que los alumnos y profesores puedan ir gestionando la adquisición de ellos. Este es el materila necesario:
+
+### Piezas 3D
+
+Esta es la lista de piezas que hace falta para poder construir el robot humanoide PacifistaBot. Se necesita imprimir todas las piezas numeradas una sola vez, aunque hay que tener en cuenta que algunas de las piezas tienen varios diseños (por ejemplo la cabeza y las manos) a elegir. Los archivos podemos encontrarlos también en el repositorio de [OPRobots de piezas STL](https://github.com/robotaleh/PacifistaBot/tree/master/stl_files) preparadas para imprimirse en 3D o para poder realizar modificaciones gracias al [formato SketchUp](./../3d_model/PacifistaBot.skp). En este momento faltaría modificar el Torso para poder fijar mediante tornillos la placa PacifistaBot AlhII.
+
+| Nº   |                           Archivo                            |                         Descripción                          |                            Imagen                            |
+| ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 1    | [PacifistaBot_Torso.stl](../stl_files/PacifistaBot_Torso.stl) |               Pecho o caja torácica del robot.               |   ![](./Material-Equipos/PiezasSTL/PacifistaBot_Torso.png)   |
+| 2    | [PacifistaBot_Cabeza_Lego.stl](../stl_files/PacifistaBot_Cabeza_Lego.stl) |       Cabeza hueca con forma muñeco de lego del robot        | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Cabeza_Lego.png) |
+| 2    | [PacifistaBot_Cabeza_Pacifista.stl](../stl_files/PacifistaBot_Cabeza_Pacifista.stl) |      Cabeza maciza con forma de Pacifista de One Piece       | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Cabeza_Pacifista.png) |
+| 3    | [PacifistaBot_Cadera.stl](../stl_files/PacifistaBot_Cadera.stl) |                       Cadera del robot                       |  ![](./Material-Equipos/PiezasSTL/PacifistaBot_Cadera.png)   |
+| 4    | [PacifistaBot_Codo_Derecho.stl](../stl_files/PacifistaBot_Codo_Derecho.stl) |               Codo del brazo derecho del robot               | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Codo_Derecho.png) |
+| 5    | [PacifistaBot_Codo_Izquierdo.stl](../stl_files/PacifistaBot_Codo_Izquierdo.stl) |              Codo del brazo izquierdo del robot              | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Codo_Izquierdo.png) |
+| 6    | [PacifistaBot_Hombro_Derecho.stl](../stl_files/PacifistaBot_Hombro_Derecho.stl) |              Hombro del brazo derecho del robot              | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Hombro_Derecho.png) |
+| 7    | [PacifistaBot_Hombro_Izquierdo.stl](../stl_files/PacifistaBot_Hombro_Izquierdo.stl) |             Hombro del brazo izquierdo del robot             | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Hombro_Izquierdo.png) |
+| 8    | [PacifistaBot_Ingle_Derecha.stl](../stl_files/PacifistaBot_Ingle_Derecha.stl) |             Ingle de la pierna derecha del robot             | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Ingle_Derecha.png) |
+| 9    | [PacifistaBot_Ingle_Izquierda.stl](../stl_files/PacifistaBot_Ingle_Izquierda.stl) |            Ingle de la pierna izquierda del robot            | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Ingle_Izquierda.png) |
+| 10   | [PacifistaBot_Link_Frontal_Inferior_Derecho.stl](../stl_files/PacifistaBot_Link_Frontal_Inferior_Derecho.stl) |           Espinilla de la pierna derecha del robot           | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Frontal_Inferior_Derecho.png) |
+| 11   | [PacifistaBot_Link_Frontal_Inferior_Izquierdo.stl](../stl_files/PacifistaBot_Link_Frontal_Inferior_Izquierdo.stl) |          Espinilla de la pierna izquierda del robot          | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Frontal_Inferior_Izquierdo.png) |
+| 12   | [PacifistaBot_Link_Frontal_Superior_Derecho.stl](../stl_files/PacifistaBot_Link_Frontal_Superior_Derecho.stl) | Cuádriceps femoral del muslo de la pierna derecha del robot  | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Frontal_Superior_Derecho.png) |
+| 13   | [PacifistaBot_Link_Frontal_Superior_Izquierdo.stl](../stl_files/PacifistaBot_Link_Frontal_Superior_Izquierdo.stl) | Cuádriceps femoral del muslo de la pierna izquierda del robot | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Frontal_Superior_Izquierdo.png) |
+| 14   | [PacifistaBot_Link_Mano_Inferior_Frontal_Brazo _Derecho.stl](../stl_files/PacifistaBot_Link_Mano_Inferior_Frontal_Brazo Derecho.stl) |          Antebrazo palmar frontal derecho del robot          | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Mano_Inferior_Frontal_Brazo_Derecho.png) |
+| 15   | [PacifistaBot_Link_Mano_Inferior_Frontal_Brazo _Izquierdo.stl](../stl_files/PacifistaBot_Link_Mano_Inferior_Frontal_Brazo_Izquierdo.stl) |         Antebrazo palmar frontal izquierdo del robot         | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Mano_Inferior_Frontal_Brazo_Izquierdo.png) |
+| 16   | [PacifistaBot_Link_Mano_Inferior_Trasero_Brazo _Derecho.stl](../stl_files/PacifistaBot_Link_Mano_Inferior_Trasero_Brazo_Derecho.stl) |          Antebrazo palmar trasero derecho del robot          | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Mano_Inferior_Trasero_Brazo_Derecho.png) |
+| 17   | [PacifistaBot_Link_Mano_Inferior_Trasero_Brazo _Izquierdo.stl](../stl_files/PacifistaBot_Link_Mano_Inferior_Trasero_Brazo_Izquierdo.stl) |         Antebrazo palmar trasero izquierdo del robot         | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Mano_Inferior_Trasero_Brazo_Izquierdo.png) |
+| 18   | [PacifistaBot_Link_Mano_Superior_Brazo _Derecho.stl](../stl_files/PacifistaBot_Link_Mano_Superior_Brazo_Derecho.stl) |            Antebrazo supinador derecho del robot             | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Mano_Superior_Brazo_Derecho.png) |
+| 19   | [PacifistaBot_Link_Mano_Superior_Brazo _Izquierdo.stl](../stl_files/PacifistaBot_Link_Mano_Superior_Brazo_Izquierdo.stl) |           Antebrazo supinador izquierdo del robot            | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Mano_Superior_Brazo_Izquierdo.png) |
+| 20   | [PacifistaBot_Link_Servo_Inferior_Frontal_Brazo _Derecho.stl](../stl_files/PacifistaBot_Link_Servo_Inferior_Frontal_Brazo_Derecho.stl) |         Triceps frontal del brazo derecho del robot          | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Servo_Inferior_Frontal_Brazo_Derecho.png) |
+| 21   | [PacifistaBot_Link_Servo_Inferior_Frontal_Brazo _Izquierdo.stl](../stl_files/PacifistaBot_Link_Servo_Inferior_Frontal_Brazo_Izquierdo.stl) |        Triceps frontal del brazo izquierdo del robot         | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Servo_Inferior_Frontal_Brazo_Izquierdo.png) |
+| 22   | [PacifistaBot_Link_Servo_Inferior_Trasero_Brazo _Derecho.stl](../stl_files/PacifistaBot_Link_Servo_Inferior_Trasero_Brazo_Derecho.stl) |         Triceps trasero del brazo derecho del robot          | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Servo_Inferior_Trasero_Brazo_Derecho.png) |
+| 23   | [PacifistaBot_Link_Servo_Inferior_Trasero_Brazo _Izquierdo.stl](../stl_files/PacifistaBot_Link_Servo_Inferior_Trasero_Brazo_Izquierdo.stl) |        Triceps trasero del brazo izquierdo del robot         | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Servo_Inferior_Trasero_Brazo_Izquierdo.png) |
+| 24   | [PacifistaBot_Link_Servo_Superior_Brazo _Derecho.stl](../stl_files/PacifistaBot_Link_Servo_Superior_Brazo_Derecho.stl) |              Biceps del brazo derecho del robot              | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Servo_Superior_Brazo_Derecho.png) |
+| 25   | [PacifistaBot_Link_Servo_Superior_Brazo _Izquierdo.stl](../stl_files/PacifistaBot_Link_Servo_Superior_Brazo_Izquierdo.stl) |             Biceps del brazo izquierdo del robot             | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Servo_Superior_Brazo_Izquierdo.png) |
+| 26   | [PacifistaBot_Link_Trasero_Inferior_Derecho.stl](../stl_files/PacifistaBot_Link_Trasero_Inferior_Derecho.stl) |            Gemelo de la pierna derecha del robot             | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Trasero_Inferior_Derecho.png) |
+| 27   | [PacifistaBot_Link_Trasero_Inferior_Izquierdo.stl](../stl_files/PacifistaBot_Link_Trasero_Inferior_Izquierdo.stl) |           Gemelo de la pierna izquierda del robot            | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Trasero_Inferior_Izquierdo.png) |
+| 28   | [PacifistaBot_Link_Trasero_Superior_Derecho.stl](../stl_files/PacifistaBot_Link_Trasero_Superior_Derecho.stl) |        Biceps femoral de la pierna derecha del robot         | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Trasero_Superior_Derecho.png) |
+| 29   | [PacifistaBot_Link_Trasero_Superior_Izquierdo.stl](../stl_files/PacifistaBot_Link_Trasero_Superior_Izquierdo.stl) |       Biceps femoral de la pierna izquierda del robot        | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Link_Trasero_Superior_Izquierdo.png) |
+| 30   | [PacifistaBot_Mano_Lego_Derecha.stl](../stl_files/PacifistaBot_Mano_Lego_Derecha.stl) |      Mano derecha con forma de muñeco de lego del robot      | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Mano_Lego_Derecha.png) |
+| 31   | [PacifistaBot_Mano_Lego_Izquierda.stl](../stl_files/PacifistaBot_Mano_Lego_Izquierda.stl) |     Mano izquierda con forma de muñeco de lego del robot     | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Mano_Lego_Izquierda.png) |
+| 30   | [PacifistaBot_Mano_Pacifista_Derecha.stl](../stl_files/PacifistaBot_Mano_Pacifista_Derecha.stl) |  Mano derecha con forma de Pacifista de One Piece del robot  | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Mano_Pacifista_Derecha.png) |
+| 31   | [PacifistaBot_Mano_Pacifista_Izquierda.stl](../stl_files/PacifistaBot_Mano_Pacifista_Izquierda.stl) | Mano izquierda con forma de Pacifista de One Piece del robot | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Mano_Pacifista_Izquierda.png) |
+| 32   | [PacifistaBot_Muñeca_Derecha.stl](../stl_files/PacifistaBot_Muñeca_Derecha.stl) |             Muñeca de la mano derecha del robot              | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Muñeca_Derecha.png) |
+| 33   | [PacifistaBot_Muñeca_Izquierda.stl](../stl_files/PacifistaBot_Muñeca_Izquierda.stl) |            Muñeca de la mano izquierda del robot             | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Muñeca_Izquierda.png) |
+| 34   | [PacifistaBot_Pie_Derecho.stl](../stl_files/PacifistaBot_Pie_Derecho.stl) |          Pie derecho de la pierna derecha del robot          | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Pie_Derecho.png) |
+| 35   | [PacifistaBot_Pie_Izquierdo.stl](../stl_files/PacifistaBot_Pie_Izquierdo.stl) |         Pie izquierdo de la pierna derecha del robot         | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Pie_Izquierdo.png) |
+| 36   | [PacifistaBot_Rodilla_Derecha.stl](../stl_files/PacifistaBot_Rodilla_Derecha.stl) |            Rodilla de la pierna derecha del robot            | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Rodilla_Derecha.png) |
+| 37   | [PacifistaBot_Rodilla_Izquierda.stl](../stl_files/PacifistaBot_Rodilla_Izquierda.stl) |           Rodilla de la pierna izquierda del robot           | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Rodilla_Izquierda.png) |
+| 38   | [PacifistaBot_Tobillo_Derecho.stl](../stl_files/PacifistaBot_Tobillo_Derecho.stl) |            Tobillo de la pierna derecha del robot            | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Tobillo_Derecho.png) |
+| 39   | [PacifistaBot_Tobillo_Izquierdo.stl](../stl_files/PacifistaBot_Tobillo_Izquierdo.stl) |           Tobillo de la pierna izquierda del robot           | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Tobillo_Izquierdo.png) |
+| 40   | [PacifistaBot_Torso_Tapa.stl](../stl_files/PacifistaBot_Torso_Tapa.stl) |               Tapa trasera del torso del robot               | ![](./Material-Equipos/PiezasSTL/PacifistaBot_Torso_Tapa.png) |
+
+### Componentes Mecánicos
+
+A continuación se listan los componentes mecánicos necesarios para la construcción del robot PacifistaBot. Todos los componentes mecánicos y electrónicos han sido suministrados por [OPRobots](https://twitter.com/oprobots) por unos 100 euros, se va a ir identificando los componentes para que los alumnos y profesores puedan ir gestionando la adquisición de ellos. Junto al nombre de cada componente se ha puesto un link orientativo para poder tener una idea de donde comprar el componente. El número de tornillos deben sobrar algunos ya que los valores no están ajustados.
+
+
+
+|  Nº  |                        Nombre/Compra                         |                         Descripción                          |                            Imagen                            |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  12  | [Tornillo M3x8](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314011904&isPremium=y&SearchText=allen+m3x8) |         Tornillo métrico allen cab. cilíndrica M3x8          |   ![](./Material-Equipos/PiezasMecanicas/Tornillo3x8.png)    |
+|  33  | [Tornillo M3x10](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314011941&isPremium=y&SearchText=allen+m3x10) |         Tornillo métrico allen cab. cilíndrica M3x10         |   ![](./Material-Equipos/PiezasMecanicas/Tornillo3x10.png)   |
+|  35  | [Tornillo M3x16](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314012016&isPremium=y&SearchText=allen+m3x16) |         Tornillo métrico allen cab. cilíndrica M3x16         |   ![](./Material-Equipos/PiezasMecanicas/Tornillo3x16.png)   |
+|  10  | [Tornillo M3x25](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314012501&isPremium=y&SearchText=allen+m3x25) | Tornillo métrico allen cab. cilíndrica M3x25 (19 mm roscado) |   ![](./Material-Equipos/PiezasMecanicas/Tornillo3x25.png)   |
+|  12  | [Servomotor](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314012523&isPremium=y&SearchText=MG996R) |         Servomotor Tower pro MG996R corona metálica          |    ![](./Material-Equipos/PiezasMecanicas/Servomotor.png)    |
+|  12  | [Accesorios servos](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314012523&isPremium=y&SearchText=MG996R) | Bolsa de varios accesorios de los servomotores. De la bolsa solo se usan los 4 tornillos roscados para amarrar los servomotres |     ![](./Material-Equipos/PiezasMecanicas/Tornillo.png)     |
+|  12  | [Disco engranado metálico](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314013124&isPremium=y&SearchText=MG996R+Disc) |         Disco engranado metálico de los servomotores         |     ![](./Material-Equipos/PiezasMecanicas/Pletina.png)      |
+|  48  | [Tornillo M3x5](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314013124&isPremium=y&SearchText=MG996R+Disc) | Tornillos métricos philips de acero M3x5 para las pletinas metálicas |   ![](./Material-Equipos/PiezasMecanicas/Tornillo3x5.png)    |
+|  70  | [Tuerca M3](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314013524&isPremium=y&SearchText=tuerca+m3+autoblocantes) |                     Tuercas autoblock M3                     |      ![](./Material-Equipos/PiezasMecanicas/Tuerca.png)      |
+|  4   | [Alargadores](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314013830&isPremium=y&SearchText=servo+extension+cable+200) |           Alargadores 21,5cm para los servomotores           | ![](./Material-Equipos/PiezasMecanicas/IMG_20190219_094213.jpg) |
+
+### Componentes Electrónicos
+
+A continuación se listan los componentes electrónicos necesarios para la construcción del robot PacifistaBot-ESP.  Junto al nombre de cada componente se ha puesto un link orientativo para poder tener una idea de donde comprar el componente. La placa original está diseñada por OPRobots y en esta versión se le han metido ciertas mejoras electrónica. La PCB está [diseñada por Don Bosco y Lasalle Berrozpe en Kicad](../pcb_files/Pacifista.........) por lo que cualquiera puede consultar los esquemas y modificarlos. Se ha pasado el [esquema a PDF](../pcb_files/Pacifista_ESP/..........) para poder consultarlo sin necesidad de tener instalado Kicad. Además se han creado los [gerber del circuito Pacifistabot-ESP](../pcb_files/Pacifista_ESP/..........) para que cualquiera pueda enviarlos a fabricar a alguno de los fabricantes como [pcbway](https://www.pcbway.com/), [seeedstudio](https://www.seeedstudio.com/fusion.html) ... (no me llevo comisión).
+
+Esta placa puede comunicarse por Bluetooth (en la siguiente versión se espera poner wifi). Por lo que si se tiene claro la manera de comunicarse aparte del módulo, se puede ahorrar ciertos componentes.
+
+|  Nº  |                        Nombre/Compra                         |                         Descripción                          |                            Imagen                            |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  1   |                    PCB Pacifistabot AlhII                    |  Circuito impreso para la electrónica de control del robot.  |                                                              |
+|  1   | [Batería](https://hobbyking.com/es_es/zippy-flightmax-1100mah-6-6v-lifepo4-2s1p-receiver-pack.html) |                 Batería LiFe 2S 1100 mah 10C                 |   ![](./Material-Equipos/MaterialElectronica/Bateria.png)    |
+|  1   |                         Alhambra II                          |                  Placa de FPGA Alhambra II                   |                                                              |
+|  1   | [Condensador](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314014249&isPremium=y&SearchText=capacitor+1000uf+16v) |                 Condensador de 16V y 1000uF                  |    ![](./Material-Equipos/MaterialElectronica/C1000.png)     |
+|  1   | [Condensador](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314014325&isPremium=y&SearchText=capacitor+820uf+6%2C3v) |                 Condensador de 6,3V y 820uF                  |     ![](./Material-Equipos/MaterialElectronica/c800.jpg)     |
+|  1   | [Bluetooth](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314014409&isPremium=y&SearchText=bluetooth+hc-05) (bt) |           Módulo Bluetooth HC-05 6 pines y 1 botón           |      ![](./Material-Equipos/MaterialElectronica/BT.jpg)      |
+|  1   | [Regulador dc-dc](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314014430&isPremium=y&SearchText=dc-dc+MINI-360) |          Regulador dc-dc MINI-360 con potenciómetro          |    ![](./Material-Equipos/MaterialElectronica/dc-dc.jpg)     |
+|  2   |                       Tira de 3 pines                        |            Tira de pines paso 2.54 1x3pines negro            |                                                              |
+|  1   |                       Tira de 8 pines                        |              Tira de pines paso 2.54 1x8 negro               |                                                              |
+|  2   |                       Tira de 6 pines                        |              Tira de pines paso 2.54 1x6 negro               |                                                              |
+|  5   | [Tira de 6 pines](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314014549&isPremium=y&SearchText=tira+de+pines+negro+amarillo+rojo+blanco) | Tira de pines paso 2.54 2x6pines negro, rojo y 1x6pines amarillo |  ![](./Material-Equipos/MaterialElectronica/TiraPines6.jpg)  |
+|  1   | [Tira de 4 pines](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314014549&isPremium=y&SearchText=tira+de+pines+negro+amarillo+rojo+blanco) |            Tira de pines paso 2.54 1x4pines negro            |  ![](./Material-Equipos/MaterialElectronica/TiraPines4.jpg)  |
+|  1   | [Tira de 6 pines hembra](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314014718&isPremium=y&SearchText=tira+de+pines+hembra+angle) |        Tira de pines hembra paso 2.54 1x6pines negro         | ![](./Material-Equipos/MaterialElectronica/TiraPines6Hembra.jpg) |
+|  2   |                     Regleta 2 contactos                      |          Regleta para PCB con 2 contactos paso 2.54          |                                                              |
+|  1   | [Switch](https://es.aliexpress.com/item/33053285882.html?spm=a2g0o.productlist.0.0.250147929GT6ta&algo_pvid=4dec3a1b-0c31-4f2b-81d5-8ef4e1e7700d&algo_expid=4dec3a1b-0c31-4f2b-81d5-8ef4e1e7700d-21&btsid=282ef7cf-95f4-4a0c-bca0-98749c8981ab&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53) |                   Interruptor KCD1 8A-250V                   |    ![](./Material-Equipos/MaterialElectronica/Switch.jpg)    |
+|  2   | [Conectores faston](https://es.aliexpress.com/item/33004981765.html?spm=a2g0o.productlist.0.0.37a245bdSs7YT7&algo_pvid=9c2002d0-f4b3-4e19-abf7-660456ce9698&algo_expid=9c2002d0-f4b3-4e19-abf7-660456ce9698-17&btsid=b41d1506-92df-48e5-beef-585f51547756&ws_ab_test=searchweb0_0,searchweb201602_9,searchweb201603_53) |                Conector faston cable de 13cm                 |   ![](./Material-Equipos/MaterialElectronica/Conector.jpg)   |
+|  1   | [Carrete de estaño](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190314015213&isPremium=y&SearchText=esta%C3%B1o) |                Carrete de estaño para soldar                 |    ![](./Material-Equipos/MaterialElectronica/Estano.jpg)    |
+|  1   |                        Cable microUSB                        |                     Cable USB a microUSB                     |   ![](./Material-Equipos/MaterialElectronica/miniUsb.jpg)    |
+
+
+
+
+### Equipos y herramientas
+
+Esta es la lista de equipos y herramientas necesarias tanto para el montaje como para el uso y mantenimiento del robot. En la lista aparece lo recomendado algunos no son obligatorios(Tienen un guión "-" en el nombre) o varios tinen la misma función (Tienen un asterisko y un nombre "*1" en el nombre).
+
+|  Nº  |         Nombre         |                Descripción                |                          Imagen                          |
+| :--: | :--------------------: | :---------------------------------------: | :------------------------------------------------------: |
+|  1   |      Llave allen       |            Llave allen de 1,5             |      ![](./Material-Equipos/Herramientas/Allen.png)      |
+|  1   | Destornillador philips | Destornillador philips de PH00, PH0 y PH1 |     ![](./Material-Equipos/Herramientas/Philips.png)     |
+|  1   |      Alicates *2       |          Alicates de punta fina           |     ![](./Material-Equipos/Herramientas/Alicate.png)     |
+|  1   |     Llave fija *2      |  Llave fija para cabeza hexagonal de 5,5  |    ![](./Material-Equipos/Herramientas/LlaveFija.png)    |
+|  1   |       Estañador        |       Estañador de 30W y punta fina       |    ![](./Material-Equipos/Herramientas/Soldador.png)     |
+|  1   |       Tijeras *1       |          Tijeras de electricista          |     ![](./Material-Equipos/Herramientas/Tijeras.png)     |
+|  1   |      Cortante *1       |        Cortante de pequeño tamaño         |    ![](./Material-Equipos/Herramientas/Cortante.png)     |
+|  1   |      - Polímetro       |     Polímetro para medir hasta 10 Vcc     |    ![](./Material-Equipos/Herramientas/Polimetro.png)    |
+|  1   |    PC con Bluetooth    |         PC con conexión Bluetooth         |    ![](./Material-Equipos/Herramientas/portatil.png)     |
+|  1   |      - Protoboard      |      Protoboard de cualquier tamaño       |   ![](./Material-Equipos/Herramientas/Protoboard.png)    |
+|  1   |  Cargador de batería   |         Cargador de baterias LiFe         | ![](./Material-Equipos/MaterialElectronica/cargador.jpg) |
+
+
