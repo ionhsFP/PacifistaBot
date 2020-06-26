@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name PCB_pacifista-cache)(type Legacy)(uri C:/Users/I.Hernandez.ZUZ-JONHERNANDE/Downloads/VersionFinal_AlhambraII-20200615T081355Z-001/VersionFinal_AlhambraII/KiCad/PCB_pacifista-cache.lib)(options "")(descr ""))
+  (lib (name PCB_pacifista-rescue)(type Legacy)(uri C:/Users/I.Hernandez.ZUZ-JONHERNANDE/Downloads/VersionFinal_AlhambraII-20200615T081355Z-001/VersionFinal_AlhambraII/KiCad/PCB_pacifista-rescue.lib)(options "")(descr ""))
+  (lib (name FPGA-rescue)(type Legacy)(uri ${KIPRJMOD}/FPGA-rescue.lib)(options "")(descr ""))
+)
