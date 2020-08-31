@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\I.Hernandez.ZUZ-JONHERNANDE\Desktop\Pacifista_TinyFPGA\Pacifista_TinyFPGA\Pacifista_TinyFPGA.sch</source>
+    <date>11/02/2020 10:12:17</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Pacifista_TinyFPGA.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J11">
+      <value>Conn_01x03</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x03-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAFBF4A</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x03-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAFC065</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>820u 6,3v</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="CP-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4AAE4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Step_down_chino</value>
+      <footprint>Pacifista-Bluetooth:Step_down_chino</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Step_down_chino-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4B28B</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x06</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4D782</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x06</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4D9B5</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x06</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4DB21</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x06</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4DBA6</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4DE5C</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Bluetooth hc_05</value>
+      <footprint>Pacifista-Bluetooth:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4E6D2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1000u 16v</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="CP-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4EA88</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01</value>
+      <footprint>Pacifista-Bluetooth:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x01-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4ED64</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="AMS1117-Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB788B1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB02EEC</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ESP-01v090</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <datasheet>http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/</datasheet>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="ESP-01v090-ESP8266" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA905ED</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06</value>
+      <footprint>TinyFPGA:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4A15E5</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01</value>
+      <footprint>Pacifista-Bluetooth:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x01-PCB_pacifista-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD4EE0F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="AMS1117-Regulator_Linear">
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="CP-PCB_pacifista-rescue">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-PCB_pacifista-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x01-PCB_pacifista-rescue">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01-PCB_pacifista-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x03-PCB_pacifista-rescue">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03-PCB_pacifista-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="Conn_01x06-PCB_pacifista-rescue">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06-PCB_pacifista-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="ESP-01v090-ESP8266">
+      <footprints>
+        <fp>ESP-01*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-01v090-ESP8266</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UTXD" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO2" type="3state"/>
+        <pin num="5" name="RST" type="input"/>
+        <pin num="6" name="GPIO0" type="3state"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="URXD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pacifistabot-ESP-01s-rescue" part="Step_down_chino-PCB_pacifista-rescue">
+      <footprints>
+        <fp>Step_down_chino</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Step_down_chino-PCB_pacifista-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="power_in"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="OUT+" type="power_in"/>
+        <pin num="4" name="OUT-" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Pacifistabot-ESP-01s-rescue">
+      <uri>C:/Users/I.Hernandez.ZUZ-JONHERNANDE/Desktop/Pacifista_TinyFPGA/Pacifista_TinyFPGA/Pacifistabot-ESP-01s-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="4"/>
+      <node ref="J7" pin="6"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J8" pin="6"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="4" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="5" name="5V">
+      <node ref="C1" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="7" name="TX-ESP">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="8" name="RX-ESP">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="9" name="TX-BT">
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="10" name="RX-BT">
+      <node ref="J9" pin="5"/>
+    </net>
+    <net code="17" name="+3V3">
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="18" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="20" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="22" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="23" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="25" name="/Alimentación">
+      <node ref="J2" pin="1"/>
+      <node ref="J6" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J6" pin="6"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="28" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="29" name="Net-(J9-Pad6)">
+      <node ref="J9" pin="6"/>
+    </net>
+    <net code="30" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="31" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="32" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="33" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="34" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="35" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="36" name="Net-(J11-Pad3)">
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="37" name="Net-(J10-Pad3)">
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="38" name="+BATT">
+      <node ref="J1" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J11" pin="2"/>
+    </net>
+  </nets>
+</export>

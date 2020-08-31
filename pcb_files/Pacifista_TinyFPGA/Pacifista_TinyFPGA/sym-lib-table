@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Pacifistabot-ESP-01s-rescue)(type Legacy)(uri C:/Users/I.Hernandez.ZUZ-JONHERNANDE/Desktop/Pacifista_TinyFPGA/Pacifista_TinyFPGA/Pacifistabot-ESP-01s-rescue.lib)(options "")(descr "Importacion de las librerias del Pacifista-ESP"))
+  (lib (name Pacifistabot-TinyFPGA.lib)(type Legacy)(uri C:/Users/I.Hernandez.ZUZ-JONHERNANDE/Desktop/Pacifista_TinyFPGA/Pacifista_TinyFPGA/Pacifistabot-TinyFPGA.lib)(options "")(descr ""))
+)
